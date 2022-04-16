@@ -1,0 +1,116 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+audio {
+    margin: 3px 0 0 0;
+}
+
+.leftcolumn {
+    background-color: #3D8BD0;
+}
+
+.row {
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.menutheloai {
+    background-color: #3D8BD0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    list-style: none;
+}
+
+ul {
+}
+
+    ul li a {
+        /* margin: 10px 10px 10px 10px ;*/
+        display: block;
+        width: 100%;
+        height: 40px;
+        padding: 10px 0 0 20px;
+    }
+
+        ul li a:hover {
+            background-color: red;
+        }
+        .imgg {
+    height: 70px;
+    width: 30%;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    float: left;
+    margin: 0 0 0 5px;
+}
+
+.danhsach {
+    margin-left: 10px;
+    display: grid;
+}
+
+.audion {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 3fr 1fr 1fr;
+    width: 95%;
+    background-color:aliceblue;
+}
+
+    .audion .nd {
+        text-align:center;
+        height: 60px;
+        border: 1px solid black;
+    }
+
+.nd {
+    font-size: 90%;
+}
+
+.yua {
+    border: 1px solid black;
+}
+.btn
+{
+    border:1px solid black;
+    width:150px;
+}
+.btnxx {
+    margin-top: 30px;
+    border: none;
+}
+
+.btnxemds {
+    background-color: #4CAF50;
+    margin: 3px;
+    padding: 7px 0 7px 2px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+.btnxoa {
+    margin-left:5px;
+    border-radius: 2px;
+    background-color: #4CAF50;
+    padding: 7px 2px 7px 2px;
+}
+.btnsua {
+    margin-left: 5px;
+    border-radius: 2px;
+    background-color: #4CAF50;
+    color: black;
+    padding: 7px 2px 7px 2px;
+}

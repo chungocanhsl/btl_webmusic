@@ -1,0 +1,147 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+audio {
+    margin: 3px 0 0 0;
+}
+
+.leftcolumn {
+    background-color: #3D8BD0;
+}
+
+.row {
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.menutheloai {
+    background-color: #3D8BD0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    list-style: none;
+}
+
+ul {
+}
+
+    ul li a {
+        /* margin: 10px 10px 10px 10px ;*/
+        display: block;
+        width: 100%;
+        height: 40px;
+        padding: 10px 0 0 20px;
+    }
+
+        ul li a:hover {
+            background-color: red;
+        }
+.menulist ul li ul {
+    display: none; /**/ /**/ /*thêm*/
+    position: relative;
+    top: -10px;
+    margin-left: 5px;
+    background-color: brown;
+}
+
+.menulist ul li:hover ul {
+    display: block;
+}
+        .naodo
+        {
+
+            border:none;
+        }
+        table
+        {
+            border:none;
+        }
+        th , tr ,td
+        {
+            border:none;
+        }
+.bang {
+    width: 100%;
+    border: 0;
+}
+.audion
+{
+    display:grid;
+    grid-template-columns:3fr 6fr;
+}
+.imgg {
+    height: 180px;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    float: left;
+    margin: 0 0 0 5px;
+    margin:0 0 0 15px;
+}
+.klga{
+font-family: "Roboto", sans-serif; 
+    margin: 5px 0 0 10px;
+}
+.per-r {
+    margin:0;
+    font-size:130%;
+    font-weight:600;
+}
+.nhac {
+    position:relative;
+    left:-27px;
+    width:500px;
+}
+.lyric {
+    margin-top:20px;
+    height: 300px;
+    overflow: scroll;
+    padding: 0 0 0 0px;
+    position:relative;
+    left:-10px;
+    text-align:center;
+
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+.lyric-tt
+{
+    font-weight:600;
+}
+.k11 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 10px;
+}
+
+.img-k11 {
+    width: 97%;
+    height: auto;
+    margin: 1px;
+}
+.k22 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 10px;
+}
+
+.img-k22 {
+    width: 97%;
+    height: auto;
+    margin: 1px;
+}
+
